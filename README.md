@@ -8,7 +8,7 @@ Landing page desenvolvida como requisito parcial para conclusão da eletiva de D
 
 ## Hospedagem
 
-- Github pages: 
+- Github pages: https://pliniki.github.io/Ecociente/
 
 
 
