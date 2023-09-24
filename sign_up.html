@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Container Principal-->
+    <div class="container bg-body-tertiary">
+      <!--Menu-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <p class="logoFirst">
+              Eco<span class="logoSecond">ciente</span>
+            </p></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"></li>
+            </ul>
+            <a href="index.html" class="text-menu">
+              <span class="text-menu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-left icon_menu"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                  />
+                </svg>
+                Voltar para tela principal
+              </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!--/Menu-->
+
+      <!--/Cadastro-->
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="card bg-white mb-5" style="max-width: 40rem">
+          <div class="card-body">
+            <h5 class="text-search text-start mb-3">
+              Cadastro do ponto de coleta
+            </h5>
+            <h6 class="text-sign mb-4">Dados da entidade</h6>
+            <!--Formulário de Cadastro-->
+            <form class="row g-3">
+              <div class="col-12">
+                <label for="inputAddress" class="form-label text-sign-up"
+                  >Nome da entidade</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder=""
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label text-sign-up"
+                  >Endereço</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder=""
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label text-sign-up"
+                  >Complemento</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label text-sign-up"
+                  >Cidade</label
+                >
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <div class="col-md-3">
+                <label for="inputState" class="form-label text-sign-up"
+                  >Estado</label
+                >
+                <select id="inputState" class="form-select text-sign-up">
+                  <option selected>UF</option>
+                  <option>AC</option>
+                  <option>AL</option>
+                  <option>AP</option>
+                  <option>AM</option>
+                  <option>BA</option>
+                  <option>CE</option>
+                  <option>DF</option>
+                  <option>ES</option>
+                  <option>MA</option>
+                  <option>MT</option>
+                  <option>MS</option>
+                  <option>MG</option>
+                  <option>PA</option>
+                  <option>PB</option>
+                  <option>PR</option>
+                  <option>PE</option>
+                  <option>PI</option>
+                  <option>RJ</option>
+                  <option>RN</option>
+                  <option>RS</option>
+                  <option>RO</option>
+                  <option>RR</option>
+                  <option>SC</option>
+                  <option>SP</option>
+                  <option>SE</option>
+                  <option>TO</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="inputZip" class="form-label text-sign-up"
+                  >Cep</label
+                >
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+              <div class="col-12">
+                <h6 class="text-sign-up mt-2 mb-3">
+                  Selecione um ou mais ítens abaixo:
+                </h6>
+              </div>
+              <div class="col-md-6">
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckDefault"
+                    >Lâmpadas</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckDefault"
+                    >Pilhas e Baterias</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckDefault"
+                    >Resíduos Eletrônicos</label
+                  >
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckChecked"
+                    >Papéis e Papelão</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckChecked"
+                    >Resíduos Orgânicos</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label
+                    class="form-check-label text-sign-up"
+                    for="flexSwitchCheckChecked"
+                    >Óleo de Cozinha</label
+                  >
+                </div>
+              </div>
+              <div class="col-md-3"></div>
+              <!--Botão Modal-->
+              <div class="col-md-6">
+                <button
+                  class="btn-primary search form-control text-white mb-5 mt-5"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  data-bs-whatever="@getbootstrap"
+                >
+                  Cadastrar ponto de coleta
+                </button>
+              </div>
+              <!--/Botão Modal-->
+              <div class="col-md-3"></div>
+            </form>
+            <!--/Formulário de Cadastro-->
+          </div>
+        </div>
+      </div>
+      <!--/Cadastro-->
+
+      <!--Modal Cadastro concluido-->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content bgk-modal">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex flex-column mb-5">
+                <div class="p-2 d-flex justify-content-center mt-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="150"
+                    height="150"
+                    fill="currentColor"
+                    class="bi bi-check-circle text-modal-sign mt-5"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                    />
+                    <path
+                      d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="p-2">
+                  <h3 class="text-center text-white">Cadastro concluído!</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/Modal Cadastro concluido-->
+    </div>
+    <!--/Container Principal-->
+
+    <!--JS Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!--/JS Bootstrap-->
+  </body>
+</html>
