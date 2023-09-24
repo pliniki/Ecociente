@@ -1,6 +1,6 @@
 # Ecociente
 
-Landing page desenvolvida como requisito parcial para conclusão da eletiva de Desenvolvimento Web Full Stack da graduação em tecnologia em Análise e Desenvolvimento de Sistemas da faculdade Fecap.
+Landing page desenvolvida como requisito parcial para conclusão da eletiva de Desenvolvimento Web Full Stack da graduação de tecnologia em Análise e Desenvolvimento de Sistemas da faculdade Fecap.
 
 ## ✒️ Autor
 
